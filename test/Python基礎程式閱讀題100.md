@@ -30,9 +30,9 @@ float(200) = 200.0
 (1 + 2j) * (3 + 4j) = (-5+10j)
 
 z = 3+5j
-z.real
-z.imag
-= 5.0
+z.real = 3.0
+z.imag = 5.0
+
 
 import cmath
 cmath.sqrt(-1)
@@ -66,17 +66,18 @@ print(word.replace("a", "z"))
 
 7.底下各行輸出為何?
 sentence = 'To Be or NOT to Be: that is the question: '
-print(sentence.upper())
-print(sentence.lower())
-print(sentence.capitalize())
-print(sentence.count('o'))
+print(sentence.upper()) = TO BE OR NOT TO BE: THAT IS THE QUESTION:
+print(sentence.lower()) = to be or not to be: that is the question:
+print(sentence.capitalize()) = To be or not to be: that is the question:
+print(sentence.count('o')) = 4
+
 ```
 
 ```
 底下各行輸出為何?
 x = "Hello"
-x[0]
-x[5]
+x[0] = H
+x[5] = error
 x[-1]
 x[1:]
 x[1:-1]
